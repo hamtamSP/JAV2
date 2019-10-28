@@ -5,7 +5,7 @@ Source Code: by Vincent
     from microbit import *
     import random
     #====================================Functions=====================================
-    def outscreen_x(spacecraft_x): # Prevent Spacecrat fromgoing out of screen
+    def outscreen_x(spacecraft_x): # Prevent Spacecrat from going out of screen
         if (spacecraft_x > 4):
             spacecraft_x = 4
         if (spacecraft_x < 0):
