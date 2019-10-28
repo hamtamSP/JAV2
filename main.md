@@ -5,7 +5,7 @@ This site will be used as a group documentation when the project starts official
 
 This is the link to our contributions and research:
 
-* [Hours Clocked](https://drive.google.com/drive/folders/1oSxDYkmlzM-sB_-UEr3AtSaH0H2n_35D?usp=sharing)
+* [Hours Clocked](https://docs.google.com/spreadsheets/d/1DFZNll1I7CO4VDM-ied0fAtll_ErM5nZQO0H-ZwF12Y/edit#gid=0)
 
 * [Group research and findings]()
 
