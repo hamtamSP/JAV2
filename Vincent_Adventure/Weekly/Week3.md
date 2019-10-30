@@ -9,9 +9,9 @@
     |Route Flexibility        |        *         |                   |
     |Cross Route Mobility     |        *         |                   |
     |Traction on Slopes       |        *         |                   |
-    |Road Speed               |                  |          *        |
-    |Logistics                |                  |          *        |
-    |Operation & Service Cost |                  |          *        |
+    |Road Speed               |                  |         *         |
+    |Logistics                |                  |         *         |
+    |Operation & Service Cost |                  |         *         |
     |Payload Delivery         |        *         |                   |
     |Maneuverability          |        *         |                   |
     |Weight Growth Potential  |        *         |                   |
@@ -26,7 +26,7 @@
 * Movements to take account for
 * Drifting?
 * Recovery of tracks when slip
-*
+* Modularity
+
 
 ## Vehicle Dynamics
- 
