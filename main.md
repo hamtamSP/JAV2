@@ -16,7 +16,7 @@ This will be our Individual Blogs
 ## Idea Generation
 
 * Tree planter
-* 
+*   
 
 ## What we want our Vehicle to do?
 * What is the maximum velocity of the vehicle?
