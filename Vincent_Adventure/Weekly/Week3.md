@@ -2,8 +2,6 @@
 
 ## Tracked Vehicles
 
-
-
     | Study Results           | Tracked Vehicles | Wheeled Vehicles  |
     ==================================================================
     |Route Flexibility        |        *         |                   |
@@ -27,6 +25,15 @@
 * Drifting?
 * Recovery of tracks when slip
 * Modularity
+* Calculation of Air Resistance **Bonus**
+* Rolling Resistance
+* Energy Efficiency
+
 
 
 ## Vehicle Dynamics
+
+
+## Homework
+* Do Mechanical Calculation
+*

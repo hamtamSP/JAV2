@@ -12,6 +12,12 @@ This is the link to our contributions and research:
 This will be our Individual Blogs
 * [Vincent_Adventure](https://github.com/hamtamSP/JAV2/tree/master/Vincent_Adventure/Weekly)
 *
+
+## Idea Generation
+
+* Tree planter
+* 
+
 ## What we want our Vehicle to do?
 * What is the maximum velocity of the vehicle?
 * How many horsepower does the vehicle need?
