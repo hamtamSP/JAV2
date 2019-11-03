@@ -10,5 +10,5 @@ Recently, as of November 2019, there has been a movement towards rebuilding the 
 ## Problems
 There are 2 main ways to grow trees. 1st is to plant the seeds. 2nd is to plant the saplings. There existing technological ways to plant seeds in the forest, which is by using a drone to disperse the seeds while flying. However, as of planting Saplings, I fail to find any robot to do this tiring task, especially when one is going to mass planting tree saplings. Even when we are in an era where technology is everywhere, saplings are still planted using manual labor.
 
-### Benefits of Planting Saplings instead of Seeds
+### Benefits of Planting Saplings Instead of Seeds
 By planting saplings, it will give a significant head start since the mature rate is shorter, which will result in a quicker visual impact. Therefore losing plants is lower to that as saplings.
