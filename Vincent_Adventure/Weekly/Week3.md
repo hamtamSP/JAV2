@@ -29,9 +29,19 @@
 * Rolling Resistance
 * Energy Efficiency
 
+### Calculation
+
+* [Tree weight approximation](https://www.warnell.uga.edu/sites/default/files/publications/WSFNR-17-33%20Coder.pdf)
+* type of tree Tembusu
+* [Coefficient of Static](https://structx.com/Material_Properties_007.html) might need to remove
 
 
 ## Vehicle Dynamics
+
+Taking account of gravity as 9.81 m/s
+weigh
+
+
 
 
 ## Homework
