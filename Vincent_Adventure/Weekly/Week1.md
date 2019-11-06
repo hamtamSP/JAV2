@@ -3,7 +3,7 @@
 ### Sites
 * [Create a simple webpage with Markdown](https://medium.com/craftycode/how-to-create-a-simple-web-page-using-markdown-95e462e43e01)
 
-*
+* image 480 x 640
 
 
 ## What is a Markdown?
