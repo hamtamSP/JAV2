@@ -2,7 +2,7 @@
 ## Micro Python using ESP 32
 ### Firmware Type
 We are using a ES32-WROOM-32D
-TXS0108
+TXS0108 (5V to 3.3V converter)
 ### Links
 * [micropython](https://docs.micropython.org/en/latest/)
 * [thonny](https://thonny.org/)
