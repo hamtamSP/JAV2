@@ -39,7 +39,7 @@
 ## Vehicle Dynamics
 
 Taking account of gravity as 9.81 m/s
-weigh
+
 
 
 
