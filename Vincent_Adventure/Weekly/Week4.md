@@ -7,7 +7,8 @@ TXS0108
 * [micropython](https://docs.micropython.org/en/latest/)
 * [thonny](https://thonny.org/)
 * [Ali-Express]()
-* [Random Nerd tutorial](https://randomnerdtutorials.com/how-to-level-shift-5v-to-3-3v/)
+* [Random Nerd tutorial Step-down](https://randomnerdtutorials.com/how-to-level-shift-5v-to-3-3v/)
+* [Calulate of Power loss](http://mustcalculate.com/electronics/automaticresistivevoltagedivider.php?vin=5&vout=3.3&eser=E96&rmin=1k&rmax=100k)
 
 
 # Things to do
