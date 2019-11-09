@@ -21,4 +21,6 @@ This will display a heart on the lights of the microbit.
 
 <img src="https://github.com/hamtamSP/JAV2/blob/master/Jeren/WhatsApp%20Image%202019-11-09%20at%205.24.56%20PM.jpeg" width ="300">
 
-Writing the first line, `from microbit import *` is very important as it allows you to get saved data from the microbit, for example, the images
+Writing the first line, `from microbit import *` is very important as it allows you to get saved data from the microbit, for example, the images.
+
+![Alt Text](https://media.giphy.com/media/elDFvIPaydy3pKCcGt/giphy.gif)
