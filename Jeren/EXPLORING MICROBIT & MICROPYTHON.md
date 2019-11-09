@@ -21,8 +21,9 @@ from microbit import *
 display.show(Image.HEART)
 ```
 This will display a heart on the lights of the microbit.
-<img src="https://github.com/hamtamSP/JAV2/blob/master/Jeren/WhatsApp%20Image%202019-11-09%20at%205.24.56%20PM.jpeg" width ="300"
->
+
+![alt text](https://github.com/hamtamSP/JAV2/blob/master/Jeren/WhatsApp%20Image%202019-11-09%20at%205.24.56%20PM.jpeg)
+
 What i learnt for this exercise:
 * Writing the first line, `from microbit import *` is very important as it allows you to get saved data from the microbit, for example, the heart image.
 * When writing the second line `display.show(Image.HEART)`, the word 'HEART' has to be capitalised, otherwise the word will not be recognised
