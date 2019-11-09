@@ -60,6 +60,7 @@ while True:
     display.show(boat)
 ```
 The numbers in the quotations represents the LEDs on the microbit in a 5x5, where '0' is off and any nuber from 1-9 is on, where 1 is the dimmest and 9 is the brightest. When the code is uploaded, the microbit will display a the image you create, a boat in this context.
+
 <img src="https://github.com/hamtamSP/JAV2/blob/master/Jeren/boat_microbit.jpeg" width ="300"
 >
 The second part of this exercise was to make the boat look animated, floating up and down.
