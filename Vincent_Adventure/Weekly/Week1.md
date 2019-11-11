@@ -12,7 +12,7 @@ Markdown is a simple way to add formatting like headers, bold, etc. it was desig
 Markdown is created by [John Gruber](https://en.wikipedia.org/wiki/John_Gruber) (of Daring Fireball) in 2004 in collaboration with Aaron Swartz on the syntax, with the goal of enabling people to write using an easy-to-read plain text format, then convert it to XHTML or HTML
 
 * [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
-* [HTML Link for learning](https://www.w3schools.com/html/html_images.asp)
+* [HTML Link for learning](https://www.w3schools.com/html/)
 
 ## What is a Git?
 
