@@ -22,7 +22,7 @@ display.show(Image.HEART)
 ```
 This will display a heart on the lights of the microbit.
 
-![alt text](https://github.com/hamtamSP/JAV2/blob/master/Jeren/WhatsApp%20Image%202019-11-09%20at%205.24.56%20PM.jpeg)
+<img src="https://github.com/hamtamSP/JAV2/blob/master/Jeren/WhatsApp%20Image%202019-11-09%20at%205.24.56%20PM.jpeg" width ="300">
 
 What i learnt for this exercise:
 * Writing the first line, `from microbit import *` is very important as it allows you to get saved data from the microbit, for example, the heart image.
@@ -61,8 +61,8 @@ while True:
 ```
 The numbers in the quotations represents the LEDs on the microbit in a 5x5, where '0' is off and any nuber from 1-9 is on, where 1 is the dimmest and 9 is the brightest. When the code is uploaded, the microbit will display a the image you create, a boat in this context.
 
-<img src="https://github.com/hamtamSP/JAV2/blob/master/Jeren/boat_microbit.jpeg" width ="300"
->
+<img src="https://github.com/hamtamSP/JAV2/blob/master/Jeren/boat_microbit.jpeg" width ="300">
+
 The second part of this exercise was to make the boat look animated, floating up and down.
 This is the code I wrote:
 ```
@@ -87,4 +87,78 @@ while True:
 ```
 
 What I learnt from this exercise:
-*By using `sleep()`, we are able to
+* By using `sleep()`, we are able to make a delay so that the image on the LED does not change immediately.
+
+##### Code 4
+The forth code was to learn how to programme the 2 buttons on the microbit to change the LEDs.
+Our task:
+* Happy face shown when no buttons are pressed
+* Sad face shown when Button A pressed
+* Angry face shown when button B pressed
+
+This is my code:
+```
+from microbit import *
+
+while True:
+    if button_a.is_pressed():
+        display.show(Image.SAD)
+    elif button_b.is_pressed():
+        display.show(Image.ANGRY)
+    else: display.show(Image.HAPPY)
+```
+This is how it turned out:
+
+![Alt Text](https://media.giphy.com/media/RfAT0z5LG7mCSo7tOV/giphy.gif)
+
+What i learnt from this exercise:
+* The image you want to display when no buttons are pressed has to be at the back, because of priority, otherwise the microbit will flash both images at the same time
+* Since i used C++ first, I was used to its functions, so when i wrote `else if`, it did not work for me and was confused. When I googled, I found out that `elif` had to be used
+* For the `else:` function, you have to make sure to include the ':', otherwise it will not be recognised
+
+Next, we had to make it so that when both buttons were pressed at the same time, something else would be displayed.
+This is my code:
+```
+from microbit import *
+
+while True:
+    if button_a.is_pressed() and button_b.is_pressed():
+        display.show(Image.HEART)
+    elif button_a.is_pressed():
+        display.show(Image.SAD)
+    elif button_b.is_pressed():
+        display.show(Image.ANGRY)
+    else: display.show(Image.HAPPY)
+```
+What I learnt from this exercise:
+* For the priority, the line for when both buttons were pressed was put on to so that it would prioritize that line first, otherwise it will not appear at all
+
+##### Code 5
+For this exercise, we were tasked to make the microbit display different images when different actions were done to the microbit. This exercise makes use of the microbit's motion sensors (accelerometer & compass).
+These are the gestures (and codes) the microbit is able to recognise:
+* up
+* down
+* left
+* right
+* face up
+* face down
+* freefall
+* 3g
+* 6g
+* 8g
+* shake
+
+This is the code I wrote:
+```
+from microbit import *
+
+while True:
+    gesture = accelerometer.current_gesture()
+    if gesture == "face up":
+        display.show(Image.HAPPY)
+    elif gesture == "face down":
+        display.show(Image.ANGRY)
+    elif gesture == "left":
+        display.show(Image.HEART)
+    else: display.show(Image.SURPRISED)
+```
