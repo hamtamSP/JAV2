@@ -73,6 +73,8 @@
 #### Weight
 Base : 1kg
 
+**Taking all liquid density of products = water ( 1g/ ml )**
+
     Groceries:
     - SongHe AAA Thai Hom Mali Rice (5kg)
     - Pasar Seedless Red Watermelon (5kg)
