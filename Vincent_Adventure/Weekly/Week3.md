@@ -69,28 +69,21 @@
 
     Pass up by 20th November 2019.
 
-## redundant
-
-* distance between the inner wheels
-* stress of the links of the tracks
-* Tracks alternating patterns of materials
-* position of power shaft
-* Efficiency of energy usage of tanks
-* slip of tracks from the wheels
-* Movements to take account for
-* Drifting?
-* Recovery of tracks when slip
-* Modularity
-* Calculation of Air Resistance **Bonus**
-* Rolling Resistance
-* Energy Efficiency
-
 ### Calculation
+#### Weight
+Base : 1kg
+
+    Groceries:
+    - SongHe AAA Thai Hom Mali Rice (5kg)
+    - Pasar Seedless Red Watermelon (5kg)
+    - F&N Magnolia Fresh Milk x 2 (1kg each)(2kg)
+    - 100 Plus Isotonic Can Drink - Original (24x325ml)(8kg)
+    - Naturel Cooking Oil - Canola(2L)(2kg)
+***Total Weight ( kg )*** = 1+5+5+2+8+2 = 23kg
+### Group Project Calculation
 
 * [Tree weight approximation](https://www.warnell.uga.edu/sites/default/files/publications/WSFNR-17-33%20Coder.pdf)
-* type of tree Tembusu
-* [Coefficient of Static](https://structx.com/Material_Properties_007.html) might need to remove
-
+* Type of tree - Tembusu
 
 ## Vehicle Dynamics
 
