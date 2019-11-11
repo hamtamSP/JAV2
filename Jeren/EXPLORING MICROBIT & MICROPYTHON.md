@@ -22,7 +22,7 @@ display.show(Image.HEART)
 ```
 This will display a heart on the lights of the microbit.
 
-![alt text](https://github.com/hamtamSP/JAV2/blob/master/Jeren/WhatsApp%20Image%202019-11-09%20at%205.24.56%20PM.jpeg)
+<img src="https://github.com/hamtamSP/JAV2/blob/master/Jeren/WhatsApp%20Image%202019-11-09%20at%205.24.56%20PM.jpeg" width ="300">
 
 What i learnt for this exercise:
 * Writing the first line, `from microbit import *` is very important as it allows you to get saved data from the microbit, for example, the heart image.
@@ -61,8 +61,8 @@ while True:
 ```
 The numbers in the quotations represents the LEDs on the microbit in a 5x5, where '0' is off and any nuber from 1-9 is on, where 1 is the dimmest and 9 is the brightest. When the code is uploaded, the microbit will display a the image you create, a boat in this context.
 
-<img src="https://github.com/hamtamSP/JAV2/blob/master/Jeren/boat_microbit.jpeg" width ="300"
->
+<img src="https://github.com/hamtamSP/JAV2/blob/master/Jeren/boat_microbit.jpeg" width ="300">
+
 The second part of this exercise was to make the boat look animated, floating up and down.
 This is the code I wrote:
 ```
