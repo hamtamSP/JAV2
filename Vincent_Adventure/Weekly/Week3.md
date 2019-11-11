@@ -79,6 +79,7 @@ Base : 1kg
     - F&N Magnolia Fresh Milk x 2 (1kg each)(2kg)
     - 100 Plus Isotonic Can Drink - Original (24x325ml)(8kg)
     - Naturel Cooking Oil - Canola(2L)(2kg)
+    link:https://www.fairprice.com.sg/
 ***Total Weight ( kg )*** = 1+5+5+2+8+2 = 23kg
 ### Group Project Calculation
 
