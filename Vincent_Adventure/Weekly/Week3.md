@@ -73,7 +73,7 @@
 #### Weight
 Base : 1kg
 
-**Taking all liquid density of products = water ( 1g/ ml )**
+**Taking all liquid density of products = water ( 1kg/ L )**
 
     Groceries:
     - SongHe AAA Thai Hom Mali Rice (5kg)
@@ -83,6 +83,15 @@ Base : 1kg
     - Naturel Cooking Oil - Canola(2L)(2kg)
     Link : https://www.fairprice.com.sg/
 ***Total Weight ( kg )*** = 1+5+5+2+8+2 = 23kg
+
+#### Incline
+links:
+* [BCA-approved wheelchair ramp incline](
+https://friendlybuildings.bca.gov.sg/industry-professional-af-ramp.html?scroll=content)
+* [Universal Design 1](https://www.bca.gov.sg/BarrierFree/others/ud_guides.pdf)
+* [2013](https://www.bca.gov.sg/BarrierFree/others/ACCESSIBILITY_CODE_2013.pdf)
+
+
 ### Group Project Calculation
 
 * [Tree weight approximation](https://www.warnell.uga.edu/sites/default/files/publications/WSFNR-17-33%20Coder.pdf)
