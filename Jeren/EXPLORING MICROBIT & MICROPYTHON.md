@@ -162,3 +162,11 @@ while True:
         display.show(Image.HEART)
     else: display.show(Image.SURPRISED)
 ```
+The results basically show a/an:
+* Happy fave when the microbit(LED side) is faced up
+* Angry face when the microbit is faced down
+* Heart when the microbit faces left
+* Surprised face when the microbit does not do any of those gestures
+
+##### Code 6
+This exercise teaches us how to make a randomizer in the microbit with micropython.
