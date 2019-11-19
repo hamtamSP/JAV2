@@ -77,14 +77,14 @@ Base : 1kg
 
     Groceries:
     - SongHe AAA Thai Hom Mali Rice (5kg)
-    - Pasar Seedless Red Watermelon (5kg)
+    - Pasar Yellow Watermelon (3kg)
     - F&N Magnolia Fresh Milk x 2 (1kg each)(2kg)
     - 100 Plus Isotonic Can Drink - Original (24x325ml)(8kg)
     - Naturel Cooking Oil - Canola(2L)(2kg)
     Link : https://www.fairprice.com.sg/
-***Total Weight ( kg )*** = 1+5+5+2+8+2 = 23kg
+***Total Weight ( kg )*** = 1+5+5+2+8+2 = 21kg
 
-#### Incline
+#### Incline  
 links:
 * [BCA-approved wheelchair ramp incline](
 https://friendlybuildings.bca.gov.sg/industry-professional-af-ramp.html?scroll=content)
