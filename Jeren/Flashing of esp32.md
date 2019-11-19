@@ -1,6 +1,8 @@
 # Flashing of esp32
 ---
-References: https://learn.sparkfun.com/tutorials/how-to-load-micropython-on-a-microcontroller-board/esp32-thing
+References:
+
+https://learn.sparkfun.com/tutorials/how-to-load-micropython-on-a-microcontroller-board/esp32-thing
 ***
 What you need:
 * Python 2.7 or Python 3.4 or newer
