@@ -76,13 +76,13 @@ Base : 1kg
 **Taking all liquid density of products = water ( 1kg/ L )**
 
     Groceries:
-    - SongHe AAA Thai Hom Mali Rice (5kg)
-    - Pasar Yellow Watermelon (3kg)
-    - F&N Magnolia Fresh Milk x 2 (1kg each)(2kg)
-    - 100 Plus Isotonic Can Drink - Original (24x325ml)(8kg)
+    - Enfamil A+ Baby Milk Powder Formula - Stage 2 (0.9 kg)
+    - Pasar Fresh Eggs (0.55kg)
+    - F&N Magnolia Fresh Milk (1kg each)
+    - Khong Guan Assortment Biscuits - Haute Selection (Tin)(700g)
     - Naturel Cooking Oil - Canola(2L)(2kg)
     Link : https://www.fairprice.com.sg/
-***Total Weight ( kg )*** = 1+5+5+2+8+2 = 21kg
+***Total Weight ( kg )*** = 1+0.9+0.55+1+0.7+2 = 6.15kg
 
 #### Incline  
 links:
