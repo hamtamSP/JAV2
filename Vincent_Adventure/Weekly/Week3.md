@@ -70,7 +70,7 @@
     Pass up by 20th November 2019.
 
 ### Calculation
-#### Weight
+#### mass
 Base : 1kg
 
 **Taking all liquid density of products = water ( 1kg/ L )**
@@ -80,9 +80,9 @@ Base : 1kg
     - Pasar Fresh Eggs (0.55kg)
     - F&N Magnolia Fresh Milk (1kg each)
     - Khong Guan Assortment Biscuits - Haute Selection (Tin)(700g)
-    - Naturel Cooking Oil - Canola(2L)(2kg)
+    - FairPrice Frozen Fresh Mixed Vegetables (1kg)
     Link : https://www.fairprice.com.sg/
-***Total Weight ( kg )*** = 1+0.9+0.55+1+0.7+2 = 6.15kg
+***Total mass ( kg )*** = 1+0.9+0.55+1+0.7+1 = 5.15kg
 
 #### Incline  
 links:
