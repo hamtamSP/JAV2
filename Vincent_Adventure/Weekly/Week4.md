@@ -17,7 +17,7 @@ When you get your hands on a brand new ESP32, you would realize that you cannot 
     Step 2: Open command prompt in your computer
 (For windows 10): Go to search bar and type :     
 command prompt    
-![command_prompt](https://github.com/hamtamSP/JAV2/blob/master/Vincent_Adventure/miscellaneous/pic/website/command_prompt.png)  
+![](https://github.com/hamtamSP/JAV2/blob/master/Vincent_Adventure/miscellaneous/pic/website/command_prompt.png)  
 
     Step 3:
 
