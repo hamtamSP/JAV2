@@ -30,3 +30,6 @@ This will be our Individual Blogs
 * How to re-gain lost adhesion of the tire?
 * What happens when the brake is suddenly applied during cornering?
 * Understanding active vehicle safety
+
+## Vehicle Drawing
+![](https://github.com/hamtamSP/JAV2/blob/master/Vincent_Adventure/miscellaneous/dwg/Group1stDraft.png)
