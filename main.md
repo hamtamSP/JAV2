@@ -18,13 +18,12 @@ This will be our Individual Blogs
 ## Idea Generation
 
 * Tree planter
-*   
 
 ## What we want our Vehicle to do?
 * What is the maximum velocity of the vehicle?
 * How many horsepower does the vehicle need?
 * How many horsepower does the vehicle need?
-* What will be the fuel consumption of the vehicle?
+* What will be the energy consumption of the vehicle?
 * How long does it take for the vehicle to come to stop?
 * What happens if shock-absorbers don’t work?
 * How to re-gain lost adhesion of the tire?
