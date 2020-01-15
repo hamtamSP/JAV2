@@ -14,12 +14,25 @@ When you get your hands on a brand new ESP32, you would realize that you cannot 
     Step 1: Download python 3.7 (Can skip if you have Python 3.7 Installed)
 [Python download](https://www.python.org/downloads/)
 
-    Step 2: Open command prompt in your computer
-(For windows 10): Go to search bar and type :     
-command prompt    
-![](https://github.com/hamtamSP/JAV2/blob/master/Vincent_Adventure/miscellaneous/pic/website/command_prompt.png)  
+    Step 2: Install esptool from using command prompt
 
-    Step 3:
+(For windows 10):   
+Go to search bar and type :     
+command prompt    
+![](https://github.com/hamtamSP/JAV2/blob/master/Vincent_Adventure/Weekly/pic/website/command_prompt.png)  
+
+
+    Step 3: Download Esp32 Firmware
+
+Go to [Firmware for ESP32](http://micropython.org/download#esp32) and
+download firmware.
+
+While downloading, connect esp32 to your computer and open command prompt
+
+Open thonny>run>selected interpreter>go to port and take note of the port  
+type:   
+
+    esptool --chip esp32 --port /dev/ttyUSB0 erase_flash
 
 
 
