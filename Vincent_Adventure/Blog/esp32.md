@@ -20,32 +20,65 @@ When you get your hands on a brand new ESP32, you would realize that you cannot 
 Go to search bar and type :     
 command prompt    
 ![](https://github.com/hamtamSP/JAV2/blob/master/Vincent_Adventure/Weekly/pic/website/command_prompt.png)  
+Type:   
+pip install esptool
+![](https://github.com/hamtamSP/JAV2/blob/master/Vincent_Adventure/Blog/pic/website/pip%20install.png)
 
+Check if esptool is downloaded, type:   
+esptool   
+or    
+esptool.py
+![](https://github.com/hamtamSP/JAV2/blob/master/Vincent_Adventure/Blog/pic/website/esptool%20check.png)
+![](https://github.com/hamtamSP/JAV2/blob/master/Vincent_Adventure/Blog/pic/website/esptoolChecked.png)
 
     Step 3: Download Esp32 Firmware
 
 Go to [Firmware for ESP32](http://micropython.org/download#esp32) and
-download firmware.
+download firmware. I will being using the wifi flash for esp32
+![](https://github.com/hamtamSP/JAV2/blob/master/Vincent_Adventure/Blog/pic/website/mine%20download.png)
 
-While downloading, connect esp32 to your computer and open command prompt
+While downloading, connect esp32 to your computer.   
+Open thonny>run>selected interpreter>go to port and take note of the port.
+![](https://github.com/hamtamSP/JAV2/blob/master/Vincent_Adventure/Blog/pic/website/finding%20port%201.png)
+![My esp32 is connect to com6](https://github.com/hamtamSP/JAV2/blob/master/Vincent_Adventure/Blog/pic/website/finding%20port%202.png)   
 
-Open thonny>run>selected interpreter>go to port and take note of the port  
-type:   
+Open command prompt and type:    
 
-    esptool --chip esp32 --port /dev/ttyUSB0 erase_flash
+    esptool --chip esp32 --port com6 erase_flash
+
+![](https://github.com/hamtamSP/JAV2/blob/master/Vincent_Adventure/Blog/pic/website/erase%20esp32.png)
+
+By now, the flash file should be downloaded, copy the file name:
+![](https://github.com/hamtamSP/JAV2/blob/master/Vincent_Adventure/Blog/pic/website/file%20name.png)
+
+Go to command prompt and type:
+
+    esptool --chip esp32 --port com6 --baud 460800 write_flash -z 0x1000 esp32-idf3-20191220-v1.12.bin
+# Done!
+
+## Run some test  
+So to test if the esp32 has been flashed properly, we are going to run a simple experiment of led blink
+
+Open Thonny> create new file> copy and paste the [code]()
+
+    from machine import Pin
+    import time
+    # =====================================================================
+
+    led = Pin(2,Pin.OUT)
+    while True:
+    led(1)
+    time.sleep(0.5)
+    led(0)
+    time.sleep(0.5)
+
+prepare an Led and  one 330 ohm resistor
+
+* place the resistor such that it connects pin 2 of esp32
+* connect the long leg of the led to the other end of the resistor
+* connect the short leg of the Led to ground of the esp32
 
 
-
-
-
-links:  
+Reference links:  
 [How to Flash ESP32](https://randomnerdtutorials.com/flashing-micropython-firmware-esptool-py-esp32-esp8266/)   
 [Firmware for ESP32](http://micropython.org/download#esp32)
-
-# Things to do
-* write up on how to setup ESP32 using window system
-* what is a flash
-* Use LAN as a common platform for communicating with the ESP32.
-* flowchart
-* purchase
-* voltage divider
