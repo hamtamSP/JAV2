@@ -34,3 +34,5 @@ This will be our Individual Blogs
 ![](https://github.com/hamtamSP/JAV2/blob/master/Vincent_Adventure/miscellaneous/dwg/Group1stDraft.png)
 
 ## Source Codes
+* [OLED Library Code](https://github.com/hamtamSP/JAV2/blob/master/Virgil/ssd1306.py)
+* [OLED Test Code](https://github.com/hamtamSP/JAV2/blob/master/Virgil/main.py)
