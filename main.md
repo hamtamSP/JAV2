@@ -9,6 +9,8 @@ This is the link to our contributions and research:
 
 * [Group research and findings]()
 
+* [Schematic](https://github.com/hamtamSP/JAV2/blob/master/Schematic-1.svg)
+
 This will be our Individual Blogs
 * [Vincent_Adventure](https://github.com/hamtamSP/JAV2/tree/master/Vincent_Adventure/Weekly)
 *
