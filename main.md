@@ -9,6 +9,8 @@ This is the link to our contributions and research:
 
 * [Group research and findings]()
 
+* [Schematic](https://github.com/hamtamSP/JAV2/blob/master/Schematic-1.svg)
+
 This will be our Individual Blogs
 * [Vincent_Adventure](https://github.com/hamtamSP/JAV2/tree/master/Vincent_Adventure/Weekly)
 *
@@ -32,3 +34,9 @@ This will be our Individual Blogs
 
 ## Vehicle Drawing
 ![](https://github.com/hamtamSP/JAV2/blob/master/Vincent_Adventure/miscellaneous/dwg/Group1stDraft.png)
+
+## Source Codes
+* [Vehicle Run](https://github.com/hamtamSP/JAV2/blob/master/Vincent_Adventure/Blog/Source_code/vehicle%20run%20test%20(forward).py)
+* [Vehicle Run with Web Server](https://github.com/hamtamSP/JAV2/blob/master/Vincent_Adventure/Blog/Source_code/WebControlEsp32.py)
+* [OLED Library Code](https://github.com/hamtamSP/JAV2/blob/master/Virgil/ssd1306.py)
+* [OLED Test Code](https://github.com/hamtamSP/JAV2/blob/master/Virgil/main.py)
