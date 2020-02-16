@@ -12,10 +12,15 @@
       text-align: center;
       background-color: Black;
       color: Green;
+      font-size: 20;
     }
 
     h1 {
       color: White;
+      padding: vh;
+    }
+    h2 {
+      color: Green;
       padding: vh;
     }
 
@@ -41,14 +46,51 @@
     .button2 {
       background-color: #e7bd3b;
     }
+    section {
+      float: left;
+      margin: 0 1.5%;
+      width: 63%;
+    }
+    aside {
+      float: right;
+      margin: 0 1.5%;
+      width: 30%;
+    }
+    .footer {
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      color: white;
+      text-align: center;
+    }
   </style>
 </head>
 <body>
-  <h1>ESP Web Server</h1>
-  """ + STATUS + """
-  <p><a href="/?forward=true"><button class="button button2">^</button></a></p>
-  <p><a href="/?rotateLeft=true"><button class="button button2"><</button></a><a href="/?stop=true"><button class="button button"><span>&#9888;</span></button></a><a href="/?rotateRight=true"><button class="button button2">></button></a></p>
-  <p><a href="/?reverse=true"><button class="button button2">v</button></a></p>
+
+    <h1>ESP Web Server</h1>
+    <h2>""" + STATUS + """</h2>
+  <section>
+    <h1>Control</h1>
+    <p><a href="/?forward"><button class="button button2">^</button></a></p>
+    <p><a href="/?left"><button class="button button2"><</button></a><a href="/?stop"><button class="button button"><span>&#9888;</span></button></a><a href="/?right"><button class="button button2">></button></a></p>
+    <p><a href="/?back"><button class="button button2">v</button></a></p>
+  </section>
+  <aside>
+    <h1>Dispense</h1>
+    <p></p>
+    <p></p>
+    <p></p>
+    <p></p>
+</aside>
+
+<div class="footer">
+    <h1>Settings</h1>
+    <p>button</p>
+    <p></p>
+    <p></p>
+</div>
+
 </body>
 
 </html>"""
