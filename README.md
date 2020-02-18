@@ -6,7 +6,7 @@
 
 ## JAV² Tree Planting Vehicle
 
-The JAV² Tree Planting Vehicle is inspired by the [#teamtrees](https://teamtrees.org/) initiative to plant 20 million trees before 2020. Hence, we created a Tracked Vehicle that can travel through uneven terrain to plant seeds so that they can turn into trees. The JAV² Tree Planting Vehicle is designed to be controlled through Wifi with a mobile deivce to enable it to plant the seeds in remote areas.
+The JAV² Tree Planting Vehicle is inspired by the [#teamtrees](https://teamtrees.org/) initiative to plant 20 million trees before 2020. Hence, we created a Tracked Vehicle that can travel through uneven terrain to plant seeds so that they can turn into trees. The JAV² Tree Planting Vehicle is designed to be controlled through Wifi with a mobile device to enable it to plant the seeds in remote areas.
 
 ![JAV² Tree Planting Vehicle](img/a6a801db-44a3-442d-979d-588f867c6c44.png)
 
@@ -30,7 +30,7 @@ Documentations for JAV² can be found on GitHub Pages at [https://hamtamsp.githu
 
 ## What You Will Need
 
-- Tree Planting Vehicle
+- JAV² Tree Planting Vehicle
 - Seeds
 
 ## Setup
