@@ -1,6 +1,5 @@
 # JAV²
 
-[![JAV² Website](https://img.shields.io/badge/Website-Online-brightgreen)](https://hamtamsp.github.io/JAV2/)
 [![Gem Version](https://badge.fury.io/rb/bulma-clean-theme.svg)](https://badge.fury.io/rb/bulma-clean-theme)
 [![GitHub Update](https://img.shields.io/badge/Last_Updated-19_Feb_2020-blue)](https://github.com/hamtamSP/JAV2)
 
@@ -20,7 +19,7 @@ The JAV² Tree Planting Vehicle is inspired by the [#teamtrees](https://teamtree
 
 ## Documentation
 
-Documentations for JAV² can be found on GitHub Pages at [https://hamtamsp.github.io/JAV2/documentation](https://hamtamsp.github.io/JAV2/documentation) .
+Documentations for JAV² can be found on GitHub at [https://github.com/hamtamSP/JAV2/blob/master/docs/Documentation.md](https://github.com/hamtamSP/JAV2/blob/master/docs/Documentation.md).
 
 ## Features
 
