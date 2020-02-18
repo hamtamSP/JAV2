@@ -3,7 +3,7 @@ title: Documentation
 subtitle: Documentation Page for JAV²
 layout: page
 show_sidebar: false
-menubar: Documentation Menu
+menubar: documentation
 hide_footer: true
 ---
 
