@@ -1,1 +1,22 @@
 remote_theme: chrisrhymes/bulma-clean-theme
+markdown: kramdown
+highlighter: rouge
+
+include:
+  - Documentation.md
+  - blog.md
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: post
+      
