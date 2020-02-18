@@ -14,7 +14,10 @@ hide_footer: true
 - [Electrical Components](#electrical-components)
   - [Charging Circuit](#charging-circuit)
   - [Boost Ciruit](#boost-circuit)
+  - [Battery Monitor](#battery-monitor)
 - [Software](#software)
+  - [Installation of Software](#installation-of-software)
+  - [ESP32 Setup](esp32-setup)
 
 ## Getting Started
 
@@ -32,12 +35,13 @@ Below are the Components That are Used
 - 2 x Motors
 - I2C OLED Display
 - 2 x 3.9MΩ Resistors
-- 2 x 2.2MΩ Resistore
+- 2 x 2.2MΩ Resistors
 
 To Program the ESP32, You will also need the following Software
 - [Python](https://www.python.org/downloads/)
 - [ESPTool](https://github.com/espressif/esptool)
 - [Thonny](https://thonny.org/)
+- [MicroPython](https://micropython.org/download)
 
 ## Electrical Components
 
@@ -57,4 +61,40 @@ However, the above circuit can only supply 500mA through the 5V rail due to the 
 
 ![Boost Circuit](https://raw.githubusercontent.com/hamtamSP/JAV2/master/img/Boost%20Circuit.png)
 
+### Battery Monitor
+
+To relay the battery voltage to the ESP32 so that we will have the battery capacity, we would create a voltage divider as the ESP32 can only read up to 3.3V. Hence, we used 2 x 3.9MΩ Resistors and 2 x 2.2MΩ Resistors to create a voltage divider as shown in the schematics below.
+
+![Battery Monitor](https://raw.githubusercontent.com/hamtamSP/JAV2/master/img/Battery%20Voltage.png)
+
 ## Software
+
+### Installation of Software
+
+To Download Python, Head to [https://www.python.org/downloads/](https://www.python.org/downloads/) and download the latest release of python. When prompted check "include PATH". After Python has been installed, Open command Prompt and enter:
+
+``` pip install esptool ```
+
+The install process will run and a message will show when the install is completed. (Message may differ depending on the version)
+
+``` Successfully installed ecdsa-0.13.3 esptool-2.8 pyaes-1.6.1 pyserial-3.4 ```
+
+Now you can also download and install the latest version of Thonny at [https://thonny.org/](https://thonny.org/).
+You can also download the relevant version of MicroPython at [https://micropython.org/download](https://micropython.org/download)
+
+### ESP32 Setup
+
+The ESP32 is usually preinstalled with Lua and NodeMCU. But since we are using MicroPython, we will need to erase the flash. we can do this by using the following command on Command Prompt:
+
+``` esptool.py --chip esp32 -p COM3 erase_flash ```
+
+Note that `COM3` is the corresponding port connected to the ESP32. However if you recieved an error message like: `'esptool.py' is not recognized as an internal or external command, operable program or batch file.` use the folling command instead:
+
+``` esptool.exe --chip esp32 -p COM3 erase_flash ```
+
+To install MicroPython, Use the following command:
+
+``` esptool.exe --chip esp32 -p COM3 write_flash -z 0x1000 esp32-idf3-20191106-v1.11-558-gd209f9ebe.bin ```
+
+Note that `esp32-idf3-20191106-v1.11-558-gd209f9ebe.bin` is the MicroPython file where you just downloaded and `COM3` is the corresponding port connected to the ESP32.
+Now you are all set to program the ESP32 with Thonny!
