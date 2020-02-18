@@ -2,6 +2,14 @@ remote_theme: chrisrhymes/bulma-clean-theme
 markdown: kramdown
 highlighter: rouge
 
+plugins:
+  - jekyll-relative-links
+  - jekyll-sitemap
+  
+relative_links:
+  enabled: true
+  collections: true
+  
 include:
   - Documentation.md
   - blog.md
