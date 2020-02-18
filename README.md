@@ -52,3 +52,11 @@ Contributors to JAV² are listed here in alphabetical order. More detailed infor
 - [@DsouzaVirgil](https://github.com/DsouzaVirgil) (Virgil)
 - [@hamtamSP](https://github.com/hamtamSP) (Arian Yap)
 - [@JerenTong](https://github.com/JerenTong) (Jeren Tong)
+
+### Blogs
+
+Blogs can be found at:
+- [Vincent](https://github.com/hamtamSP/JAV2/tree/master/Vincent_Adventure)
+- [Virgil](https://github.com/hamtamSP/JAV2/tree/master/Virgil)
+- [Arian](https://github.com/hamtamSP/JAV2/tree/master/Arian)
+- [Jeren](https://github.com/hamtamSP/JAV2/tree/master/Jeren)
