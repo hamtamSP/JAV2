@@ -1,0 +1,13 @@
+- label: Documentation Menu
+  items:
+    - name: Chapter 1
+      link: /
+    - name: Pages
+      link: #
+      items:
+        - name: Page 1
+          link: /page-1/
+        - name: Page 2
+          link: /page-2/
+    - name: Blog
+      link: /blog/
