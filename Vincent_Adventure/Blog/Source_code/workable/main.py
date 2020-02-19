@@ -16,6 +16,7 @@ import motorControl as mc
 import time
 from hcsr04 import HCSR04
 # =====================================================================
+# =====================================================================
 ssid = 'Mapper'
 password = 'JokesOnYou'
 
@@ -28,19 +29,22 @@ while ap.active() == False:
     pass
 
 print('Setup Successful')
-print(ap.ifconfig())
-
+time.sleep(1)
+print(str(ap.ifconfig()))
 line = ['Setup Successful','Listening at...',str(ap.ifconfig()),'']
+time.sleep(1)
 o.display_(line)
 
 def web_page(line):
     
     STATUS = line[0]
+    STATUS2 = line[1]
     
     html ="""<html>
     <head>
       <title>ESP Web Server</title>
       <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta http-equiv="refresh" content="1; url=wait">
       <link rel="icon" href="data:,">
       <style>
 
@@ -58,6 +62,10 @@ def web_page(line):
           color: White;
           padding: vh;
         }
+        h2 {
+          color: Green;
+          padding: vh;
+        }
 
         p {
           font-size: 1.5rem;
@@ -71,7 +79,7 @@ def web_page(line):
           border: none;
           border-radius: 20px;
           color: White;
-          padding: 16px 40px;
+          padding: 10px 20px;
           text-decoration: none;
           font-size: 30px;
           margin: 1px;
@@ -80,18 +88,66 @@ def web_page(line):
 
         .button2 {
           background-color: #e7bd3b;
+          display: inline-block;
+          border: none;
+          border-radius: 20px;
+          color: White;
+          padding: 10px 20px;
+          text-decoration: none;
+          font-size: 30px;
+          margin: 1px;
+          cursor: pointer;
+        }
+        section {
+          float: left;
+          margin: 0 1.5%;;
+          width: 50%;
+        }
+        aside {
+          float: right;
+          margin: 0 1.5%;
+          width: 50%;
+        }
+        .footer {
+          position: absolute;
+          left: 0;
+          bottom: 0;
+          width: 100%;
+          color: white;
+          text-align: center;
         }
       </style>
     </head>
     <body>
-      <h1>ESP Web Server</h1>
-      """ + STATUS + """
-      <p><a href="/?forward"><button class="button button2">^</button></a></p>
-      <p><a href="/?left"><button class="button button2"><</button></a><a href="/?stop"><button class="button button"><span>&#9888;</span></button></a><a href="/?right"><button class="button button2">></button></a></p>
-      <p><a href="/?back"><button class="button button2">v</button></a></p>
+
+        <h1>ESP Web Server</h1>
+        <h2>""" + STATUS + """</h2>
+        <h2>""" + STATUS2 + """</h2>
+      <section>
+        <h1>Control</h1>
+        <p><a href="/?forward"><button class="button button2">^</button></a></p>
+        <p><a href="/?left"><button class="button button2"><</button></a><a href="/?stop"><button class="button button"><span>&#9888;</span></button></a><a href="/?right"><button class="button button2">></button></a></p>
+        <p><a href="/?back"><button class="button button2">v</button></a></p>
+      </section>
+      <aside>
+        <h1>Dispense</h1>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+    </aside>
+
+    <div class="footer">
+        <h1>Settings</h1>
+        <p>button</p>
+        <p></p>
+        <p></p>
+    </div>
+
     </body>
 
     </html>"""
+
     return html
 
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)

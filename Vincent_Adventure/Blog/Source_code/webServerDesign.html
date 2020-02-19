@@ -2,6 +2,7 @@
 <head>
   <title>ESP Web Server</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="refresh" content="3; url=192.168.12.4">
   <link rel="icon" href="data:,">
   <style>
 
@@ -36,7 +37,7 @@
       border: none;
       border-radius: 20px;
       color: White;
-      padding: 16px 40px;
+      padding: 10px 20px;
       text-decoration: none;
       font-size: 30px;
       margin: 1px;
@@ -45,19 +46,28 @@
 
     .button2 {
       background-color: #e7bd3b;
+      display: inline-block;
+      border: none;
+      border-radius: 20px;
+      color: White;
+      padding: 10px 20px;
+      text-decoration: none;
+      font-size: 30px;
+      margin: 1px;
+      cursor: pointer;
     }
     section {
       float: left;
-      margin: 0 1.5%;
-      width: 63%;
+      margin: 0 1.5%;;
+      width: 50%;
     }
     aside {
       float: right;
       margin: 0 1.5%;
-      width: 30%;
+      width: 50%;
     }
     .footer {
-      position: fixed;
+      position: absolute;
       left: 0;
       bottom: 0;
       width: 100%;
@@ -70,6 +80,7 @@
 
     <h1>ESP Web Server</h1>
     <h2>""" + STATUS + """</h2>
+    <h2>""" + STATUS2 + """</h2>
   <section>
     <h1>Control</h1>
     <p><a href="/?forward"><button class="button button2">^</button></a></p>
