@@ -72,4 +72,5 @@ Now that we have successfully flashed the esp32, we will try to use the esp32 to
 For Example:
         fwd()
 7. Change the motor output accordingly, motor1a and motor1b must be in opposite Boolean logic, motor2a and motor2b must be in opposite Boolean logic,
-8. Motor Control Done
+8. After doing adjustments, save a copy of the file into ESP32 and lable it as
+        MotorControl.py
