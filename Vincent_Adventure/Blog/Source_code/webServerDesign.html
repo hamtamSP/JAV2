@@ -2,7 +2,7 @@
 <head>
   <title>ESP Web Server</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta http-equiv="refresh" content="3; url=192.168.12.4">
+  <meta http-equiv="refresh" content="3; url=waiting">
   <link rel="icon" href="data:,">
   <style>
 
@@ -56,18 +56,28 @@
       margin: 1px;
       cursor: pointer;
     }
+    .button3{
+      background-color: #e7bd3b;
+      display: inline-block;
+      border: none;
+      border-radius: 20px;
+      color: Green;
+      padding: 10px 20px;
+      text-decoration: none;
+      font-size: 30px;
+      margin: 1px;
+      cursor: pointer;
+    }
     section {
       float: left;
-      margin: 0 1.5%;;
       width: 50%;
     }
     aside {
       float: right;
-      margin: 0 1.5%;
       width: 50%;
     }
     .footer {
-      position: absolute;
+      position: fixed;
       left: 0;
       bottom: 0;
       width: 100%;
@@ -78,9 +88,10 @@
 </head>
 <body>
 
-    <h1>ESP Web Server</h1>
+    <h1>ESP Web Control</h1>
     <h2>""" + STATUS + """</h2>
     <h2>""" + STATUS2 + """</h2>
+    <h2>""" + STATUS3 + """</h2>
   <section>
     <h1>Control</h1>
     <p><a href="/?forward"><button class="button button2">^</button></a></p>
@@ -89,18 +100,11 @@
   </section>
   <aside>
     <h1>Dispense</h1>
-    <p></p>
-    <p></p>
-    <p></p>
-    <p></p>
-</aside>
-
-<div class="footer">
-    <h1>Settings</h1>
-    <p>button</p>
-    <p></p>
-    <p></p>
-</div>
+    <p><a href="/?deploy"><button class="button button3"><strong>DEPLOY!!</strong></button></a></p>
+    <p><a href="/?reload"><button class="button button3"><strong>Reload</strong></button></a></p>
+    <a href="/?Auto"><button class="button button3"><strong>Auto Plant</strong></button></a>
+    <h1></h1>
+  </aside>
 
 </body>
 

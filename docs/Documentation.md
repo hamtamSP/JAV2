@@ -72,7 +72,6 @@ To relay the battery voltage to the ESP32 so that we will have the battery capac
 ### Installation of Software
 
 To Download Python, Head to [https://www.python.org/downloads/](https://www.python.org/downloads/) and download the latest release of python. When prompted check "include PATH". After Python has been installed, Open command Prompt and enter:
-
 ``` pip install esptool ```
 
 The install process will run and a message will show when the install is completed. (Message may differ depending on the version)
@@ -98,3 +97,6 @@ To install MicroPython, Use the following command:
 
 Note that `esp32-idf3-20191106-v1.11-558-gd209f9ebe.bin` is the MicroPython file where you just downloaded and `COM3` is the corresponding port connected to the ESP32.
 Now you are all set to program the ESP32 with Thonny!
+
+Next upload these files and save the files as the same name as stated in ESP32
+![Workable files](https://github.com/hamtamSP/JAV2/tree/master/Vincent_Adventure/Blog/Source_code/workable)

@@ -1,6 +1,6 @@
 # Setup of Tracked Vehicle
 ## Introduction
-We bought a [Tracked Vehicle](https://www.aliexpress.com/item/32821691519.html?spm=a2g0o.productlist.0.0.dd9f3504FIxJlO&algo_pvid=4bd80cc2-4a6f-4e2b-9bf1-29e588a22596&algo_expid=4bd80cc2-4a6f-4e2b-9bf1-29e588a22596-40&btsid=31add63b-820d-4040-a855-48db1088dcb4&ws_ab_test=searchweb0_0,searchweb201602_2,searchweb201603_53) from AliExpress, we need to assemble it.
+We bought a [Tracked Vehicle](https://www.aliexpress.com/item/32821691519.html?spm=a2g0o.productlist.0.0.dd9f3504FIxJlO&algo_pvid=4bd80cc2-4a6f-4e2b-9bf1-29e588a22596&algo_expid=4bd80cc2-4a6f-4e2b-9bf1-29e588a22596-40&btsid=31add63b-820d-4040-a855-48db1088dcb4&ws_ab_test=searchweb0_0,searchweb201602_2,searchweb201603_53) from AliExpress, we need to assemble it. There is a [default assembly](https://github.com/SmartArduino/ESPboard/blob/master/miniT100Instruction.pdf) provided by the supplier
 
     Step 1: Keep Track of your inventory
  It is a good practice to keep track of what u have received from online purchase, so as for us, we took picture of what we have.
