@@ -225,7 +225,7 @@ I will use Python's list to store information and update the webpage.
 Refer the [MicroPython: ESP32/ESP8266 Access Point (AP)](https://randomnerdtutorials.com/micropython-esp32-esp8266-access-point-ap/) for the Understanding of code
 
 I changed the layout of the html page which will look something like this, where the status will be updated with information from the robot.
-!()[]
+!()[https://github.com/hamtamSP/JAV2/blob/master/Vincent_Adventure/Blog/pic/website/ESP32%20webcontrol/html_layout.png]
 
 This line under the html section will refresh the page every 1 second and update the Url with 192.168.16.4/waiting:   
 
