@@ -1,3 +1,4 @@
+# For full guide please refer to https://github.com/hamtamSP/JAV2/tree/master/Vincent_Adventure/Blog
 try:
     import usocket as socket
 except:
@@ -23,7 +24,7 @@ password = 'JokesOnYou'
 
 ap = network.WLAN(network.AP_IF)
 ap.active(True)
-ap.ifconfig(('192.168.16.4','255.255.255.0', '192.168.12.1', '8.8.8.8'))
+ap.ifconfig(('192.168.12.4','255.255.255.0', '192.168.12.1', '8.8.8.8'))
 ap.config(essid=ssid, password=password, authmode = 3)
 
 while ap.active() == False:
@@ -47,7 +48,7 @@ def web_page(line):
 
     html ="""<html>
     <head>
-      <title>ESP Web Server</title>
+      <title>ESP Web Control</title>
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <meta http-equiv="refresh" content="1; url=waiting">
       <link rel="icon" href="data:,">
